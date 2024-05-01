@@ -76,6 +76,7 @@ version: "<version>"
 
 services:
    <name>:
+      image: <image name>
       build: <relive path to Docker File>
       container_name: <container name when ran>
       ports:
