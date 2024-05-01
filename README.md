@@ -59,6 +59,8 @@ WORKDIR <dir>
 
 RUN <command> # run command in build time of image
 
+ENV <name>=<value>
+
 COPY <system_dir> <container_dir>
 
 EXPOSE <container_port> # optional. just use for port mapping in docker desktop
